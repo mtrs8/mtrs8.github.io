@@ -1,10 +1,10 @@
 * {
-    margin: 50;
+    margin: 0;
     padding:0;
 }
 
 body, html {
-    background-image: url('http://www.vanessametonini.com.br/imersaocss/a1/img/fundo.jpg');
+    background-image: url('../img/fundo.jpg');
     background-size: auto 100vh;
     width: 100%;
     height: 100vh;
@@ -39,10 +39,4 @@ a:hover {
 
 .site-subtitle {
     font-style: italic;
-}
-
-p {
-    margin-bottom: 1.5em;
-    margin-top: auto;
-    margin: 50;
 }
