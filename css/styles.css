@@ -67,14 +67,21 @@ a:hover {
     text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
     color: black;
     font-style: italic;
+    justify-content: center;
 }
 
 .site-title {
-    font-size: 53pt;
+    font-size: 40pt;
 }
 .site-subtitle {
     font-size: 20pt;
     line-height: 2.5em;
+}
+
+.img-profile {
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
 }
 
 .sobremim {
@@ -100,7 +107,9 @@ a:hover {
 
 @media(min-width) {
     .grid {
-        grid-template-columns: 240px 240px;
+        grid-template-columns: repeat(3, 240px);
+        align-content: center;
+        justify-content: center;
     }
 }
 
